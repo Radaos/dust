@@ -14,5 +14,5 @@ Move msedgedriver.exe to C:\DriversEtc\Drivers\edgedriver_win64/
 
 Setup:\
 Run launcher.bat manually, or \
-Create a new timed task in Windows Task Scheduler on a daily schedule.\
+Create a new timed task in Windows Task Scheduler to run daily.\
   
