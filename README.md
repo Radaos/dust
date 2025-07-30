@@ -2,12 +2,12 @@
 A Python script to search rip.ie for notices based on contents of the watchlist file and display results in a window.
 Windows Task Scheduler may be used to run this script at a specific time each day.
 
-Requirements:
-An up-to-date version of Python.
-Run the following if not already installed:
-  pip install selenium   
-  pip install bs4
-  pip install tkhtmlview
-Install Edge WebDriver:
-  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+Requirements:\
+An up-to-date version of Python.\
+Run the following if not already installed:\
+  pip install selenium\
+  pip install bs4\
+  pip install tkhtmlview\
+Install Edge WebDriver:\
+  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/\
   
