@@ -13,5 +13,6 @@ Download Edge WebDriver:\
 Move msedgedriver.exe to C:\DriversEtc\Drivers\edgedriver_win64
 \
 Setup:\
+Add search criteria to watchlist.csv as required.\
 Run launcher.bat manually, or \
 Create a new timed task in Windows Task Scheduler to run daily.
