@@ -8,6 +8,8 @@ Run the following if not already installed:\
 &emsp;  pip install selenium\
 &emsp;  pip install bs4\
 &emsp;  pip install tkhtmlview\
-Install Edge WebDriver:\
-&emsp;  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/\
+Download Edge WebDriver:\
+&emsp;  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+move msedgedriver.exe to C:\DriversEtc\Drivers\edgedriver_win64/
+
   
