@@ -5,9 +5,9 @@ Windows Task Scheduler may be used to run this script at a specific time each da
 Requirements:\
 An up-to-date version of Python.\
 Run the following if not already installed:\
-  pip install selenium\
-  pip install bs4\
-  pip install tkhtmlview\
+&emsp;  pip install selenium\
+&emsp;  pip install bs4\
+&emsp;  pip install tkhtmlview\
 Install Edge WebDriver:\
-  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/\
+&emsp;  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/\
   
