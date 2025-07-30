@@ -10,9 +10,8 @@ Run the following in a command window if not already installed:\
 &emsp;  pip install tkhtmlview\
 Download Edge WebDriver:\
 &emsp;  https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ \
-Move msedgedriver.exe to C:\DriversEtc\Drivers\edgedriver_win64/
-
+Move msedgedriver.exe to C:\DriversEtc\Drivers\edgedriver_win64
+\
 Setup:\
 Run launcher.bat manually, or \
-Create a new timed task in Windows Task Scheduler to run daily.\
-  
+Create a new timed task in Windows Task Scheduler to run daily.
