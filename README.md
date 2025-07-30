@@ -4,7 +4,7 @@ Windows Task Scheduler may be used to run this script at a specific time each da
 
 Installation:\
 Ensure an up-to-date version of Python is installed.\
-Run the following if not already installed:\
+Run the following in a command window if not already installed:\
 &emsp;  pip install selenium\
 &emsp;  pip install bs4\
 &emsp;  pip install tkhtmlview\
