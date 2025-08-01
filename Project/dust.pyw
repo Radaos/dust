@@ -84,8 +84,8 @@ def search_notices_for_row(row, start_day):
     town = row["town"].strip().lower()
     firstname = row["firstname"].strip()
     surname = row["surname"].strip()
-    if not surname:
-        return ["No results"]   # Skip search if surname is empty
+    if not county and not town and not firstname and not surname:
+        return ["No results"]   # Skip search if no criteria are provided.
 
     url = build_url(county, town, firstname, surname, start_day)
     logging.info('\n' + url)
