@@ -2,7 +2,7 @@
 
 ## Project Title: Dust
 
-## Purpose: To monitor death notices on rip.ie based on a user-defined watchlist. It periodically queries the site, parses relevant notices, and displays matching results in a GUI window. The tool is intended for personal use and runs as a .pyw script to remain unobtrusive in the background.
+## Purpose: To monitor death notices on rip.ie based on a user-defined watchlist. Periodically query the site, parse relevant notices, and display matching results in a GUI window. The tool is intended for personal use.
 
 ## Functional Requirements
 1. Watchlist Monitoring\
@@ -49,4 +49,5 @@ Dependencies\
 requests — for HTTP communication\
 bs4 (BeautifulSoup) — for HTML parsing\
 tkinter — for GUI rendering\
+
 webbrowser — to open notice links
