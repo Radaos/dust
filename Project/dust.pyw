@@ -2,7 +2,8 @@
 """
 Search rip.ie for notices based on contents of the watchlist file and display results in a window.
 This script may be run manually or on a daily timed basis, via Windows Task Scheduler.
-
+Author: Robert Drohan
+Copyright: Copyright 2025, Robert Drohan
 license = GPLv3
 version = 1.0
 status = Release
@@ -132,3 +133,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
