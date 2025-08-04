@@ -3,7 +3,7 @@ A Python script to search rip.ie for notices based on contents of the watchlist 
 Windows Task Scheduler may be used to run this script at a specific time each day.
 
 Installation:\
-Ensure an up-to-date version of Python is installed.\
+Ensure an up-to-date version of Python is installed: https://www.python.org/ \
 Run the following in a command window if not already installed:\
 &emsp;  pip install selenium\
 &emsp;  pip install bs4\
