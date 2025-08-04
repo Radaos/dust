@@ -19,7 +19,6 @@ Link to full notice
 
 3. Result Filtering\
 FR3.1: Notices shall be filtered based on keyword matches from the watchlist.\
-FR3.2: Duplicate notices shall be avoided using a local cache (seen.txt).
 
 4. GUI Display\
 FR4.1: Matching notices shall be displayed in a scrollable Tkinter window.\
@@ -51,3 +50,4 @@ bs4 (BeautifulSoup) — for HTML parsing\
 tkinter — for GUI rendering\
 
 webbrowser — to open notice links
+
