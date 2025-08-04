@@ -35,10 +35,9 @@ Scrollable Frame	Lists matching notices with clickable links
 
 File Structure\
 File: Purpose\
-dust.pyw	Main application script\
-watchlist.txt	User-defined keywords for filtering\
-seen.txt	Cache of previously seen notices\
-README.md	Setup and usage instructions\
+dust.pyw:	Main application script\
+watchlist.txt:	User-defined keywords for filtering\
+README.md:	Setup and usage instructions\
 
 Error Handling\
 Network failures are caught and logged to the status label.\
@@ -48,6 +47,6 @@ Dependencies\
 requests — for HTTP communication\
 bs4 (BeautifulSoup) — for HTML parsing\
 tkinter — for GUI rendering\
-
 webbrowser — to open notice links
+
 
