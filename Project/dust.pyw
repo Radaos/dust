@@ -19,10 +19,12 @@ import re
 import tkinter as tk
 from tkhtmlview import HTMLScrolledText
 import logging
+import os
 
-EDGE_DRIVER_PATH = "C:/DriversEtc/Drivers/edgedriver_win64/msedgedriver.exe"
-WATCHLIST_PATH = "watchlist.csv"
-DAYS_LOOKBACK = 1
+edge_driver_path = "C:/DriversEtc/Drivers/edgedriver_win64/msedgedriver.exe"
+script_directory = os.path.dirname(__file__)
+watchlist_path = os.path.join(script_directory, "watchlist.csv")
+days_lookback = 1
 logging.basicConfig(level=logging.INFO)
 
 # Build RIP.ie search URL
@@ -57,7 +59,7 @@ def fetch_html_with_selenium(url):
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--disable-gpu")
-    service = Service(executable_path=EDGE_DRIVER_PATH)
+    service = Service(executable_path=edge_driver_path)
     driver = None
     try:
         driver = webdriver.Edge(service=service, options=options)
@@ -109,9 +111,9 @@ def search_notices_for_row(row, start_day):
 # Main execution
 def main():
     notices = []
-    start_day = (datetime.today() - timedelta(days=DAYS_LOOKBACK)).strftime("%Y-%m-%d")
+    start_day = (datetime.today() - timedelta(days=days_lookback)).strftime("%Y-%m-%d")
     try:
-        with open(WATCHLIST_PATH, newline="") as f:
+        with open(watchlist_path, newline="") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 notices.extend(search_notices_for_row(row, start_day))
@@ -127,10 +129,9 @@ def main():
             show_alert_window("R.I.P.", notices_html)
 
     except FileNotFoundError:
-        logging.error(f"File not found: {WATCHLIST_PATH}")
+        logging.error(f"File not found: {watchlist_path}")
         return
 
 if __name__ == "__main__":
 
     main()
-
